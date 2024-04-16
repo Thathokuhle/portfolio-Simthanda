@@ -1493,8 +1493,8 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            min-height: auto;
-            padding: 60px 5% 50px;
+            min-height: 80vh;
+            padding: 60px 15% 50px;
         }
         .aside-container {
             width: 100%;
@@ -1502,16 +1502,16 @@
         section {
             width: 100%;
             height: auto;
-            min-height: auto;
+            min-height: 100vh;
             padding: 70px 8% 60px;
         }
         .content-heading-hd-nm,
         .sm-div-box h1 {
-            font-size: 3vh;
+            font-size: 7vh;
             width: 100%;
         }
         .content-heading-hd-tx {
-            font-size: 2vh;
+            font-size: 5vh;
         }
         .Abt-div-box {
             padding: 100px;
