@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Get Screen Width and Height</title>
+  <style>
+    /* You can add your CSS styles here if needed */
+  </style>
+</head>
+<body>
+  <h1>Screen Width and Height</h1>
+  <p id="screenSize"></p>
+
+  <script>
+    // JavaScript code to get screen width and height
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+    // Display the width and height on the HTML page
+    var screenSize = "Width: " + width + "px, Height: " + height + "px";
+    document.getElementById("screenSize").innerHTML = screenSize;
+  </script>
+</body>
+</html>
